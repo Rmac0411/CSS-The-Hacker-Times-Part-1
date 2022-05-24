@@ -2,13 +2,14 @@
 
 body{
     background-color: #eee;
-    font-family: "Source Sans Pro", normal;
+    font-family: "Source Sans Pro";
+    font-weight: 100;
 }
 
 h1{
-    font-family: "abril fattface", normal;
+    font-family: "abril fattface"; 
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 800;
 }
 
@@ -17,31 +18,38 @@ h2{
 
 }
 
+h5{
+    color: #dd3232;
+}
 .newspaper-container{
-   margin: 0 auto;
+   margin:30px auto;
     width: 700px;
     padding: 30px;
-    border-radius: 100%;
-    box-shadow: 2px 2px #ddd;
+    border-radius: 1%;
+    box-shadow: 2px 2px solid #ddd;
     background-color: white;
 }
 
 nav ul{
     list-style: none;
+    margin: 3px;
 
 }
 nav li{
     display: inline-block;
-    padding: 2px;    
+    padding: 6px;    
+  
 }
 nav{
-    border-top:1px solid black;
-    border-bottom: 1px solid black; 
+    border-top:1px solid #eee;
+    border-bottom: 1px solid #eee; 
     
 }
 
 a:link{
     color:#777;
+    text-decoration: none;
+    font-size: 0.9em;
 }
 
 .more-articles{
