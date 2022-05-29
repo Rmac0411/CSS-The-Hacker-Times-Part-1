@@ -7,27 +7,28 @@ body{
 }
 
 h1{
-    font-family: "abril fattface"; 
+    font-family: "abril fatface"; 
     text-align: center;
     font-size: 3em;
-    font-weight: 800;
 }
 
-h2{
+h2, h4 {
     font-family: "roboto slab";
 
 }
 
 h5{
     color: #dd3232;
+    font-family: "abril fatface";
 }
 .newspaper-container{
    margin:30px auto;
     width: 700px;
-    padding: 30px;
+    padding: 10px;
     border-radius: 1%;
-    box-shadow: 2px 2px solid #ddd;
+    box-shadow: 1px 2px #ddd;
     background-color: white;
+    text-align: justify;
 }
 
 nav ul{
@@ -52,7 +53,18 @@ a:link{
     font-size: 0.9em;
 }
 
-.more-articles{
+.more-articles section{
     display: inline-block;
+    width: 40%;
+    padding: 25px;
+    text-align: justify;
     
 }
+
+p{
+    margin-inline-start: 10px;
+}
+main{
+    border-bottom: 1px solid #eee;
+}
+
